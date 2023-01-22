@@ -1,3 +1,9 @@
+import Form from './Form';
+
 export default function Home() {
-    return <div className="text-3xl font-bold underline">home page</div>;
+    return (
+        <div className="bg-gray-700 h-screen">
+            <Form />
+        </div>
+    );
 }
